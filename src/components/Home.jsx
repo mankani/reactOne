@@ -46,20 +46,40 @@ const Home = () => {
           <h1>Brands</h1>
           <article>
             <div style={{ animationDelay: "0.3s" }}>
-              <AiFillGoogleCircle />
-              <p>Google</p>
+              <a
+                href="https://en.wikipedia.org/wiki/Travis_Scott"
+                target="blank"
+              >
+                <AiFillGoogleCircle />
+                <p>Google</p>
+              </a>
             </div>
             <div style={{ animationDelay: "0.5s" }}>
-              <AiFillAmazonCircle />
-              <p>Amazon</p>
+              <a
+                href="https://www.amazon.com/Jordan-Mens-CD4487-Travis-Scott/dp/B07RN27FFN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rGmCjRmjoz8Zu_7F2IHrDguHgjKFHJd5LRMmjAGNAgJMwKGtUXNRzIEYw0aaV_Qm5Eu-9h3UF5LVL5FqC1IAytkcc4ARoWZU6VGEoEvP1PrRDAt9rC6WxoNWbNcmJVTbsW2rh1EW9M5yYQyoh6bJIgQYgfYrI80pe8jmw-_7T28z8tYaebdperxk8iQ7NerO5EF0bUkwt61Nluh2FOm09WUf21xk6un3uHzHCHxwkzK4ZxpvR7NzHT6_0mYf8duytGuF5M_7FfyqsVnBc-bhr84Fh-QOAmMW4T6gVJJCS9c.PTBFF6wrxayybfmD4PkppEfYEoahm6j9DmMPkbKwDz4&dib_tag=se&keywords=nike+travis+scott&qid=1723707019&sr=8-1"
+                target="blank"
+              >
+                <AiFillAmazonCircle />
+                <p>Amazon</p>
+              </a>
             </div>
             <div style={{ animationDelay: "0.7s" }}>
-              <AiFillYoutube />
-              <p>Youtube</p>
+              <a
+                href="https://www.youtube.com/channel/UCtxdfwb9wfkoGocVUAJ-Bmg"
+                target="blank"
+              >
+                <AiFillYoutube />
+                <p>Youtube</p>
+              </a>
             </div>
             <div style={{ animationDelay: "1s" }}>
-              <AiFillInstagram />
-              <p>Instagram</p>
+              <a
+                href="https://www.instagram.com/travisscott/?hl=en"
+                target="blank"
+              >
+                <AiFillInstagram />
+                <p>Instagram</p>
+              </a>
             </div>
           </article>
         </div>
